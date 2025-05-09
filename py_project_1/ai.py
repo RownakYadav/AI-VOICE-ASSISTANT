@@ -2,7 +2,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="AIzaSyA1YNC3rB7p_bVoL5ShB64QDLlBrQQhxsM",
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+    base_url="Your_api_key"
 )
 
 response = client.chat.completions.create(
